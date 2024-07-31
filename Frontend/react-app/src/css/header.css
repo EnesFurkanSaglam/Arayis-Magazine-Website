@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.header .slogan {
+    font-size: 18px;
+    color: #ded09b;
+    margin: 0 auto;
+}
+
+.image {
+    height: 60px;
+    width: 200px;
+}
+
+.menu {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.menudiv {
+    width: 40px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #333;
+    color: #ded09b;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+
+}
+
+.dropdown-menu ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dropdown-menu li:hover {
+    background-color: #444;
+}
