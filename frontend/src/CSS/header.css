@@ -21,6 +21,8 @@ body {
     font-size: 18px;
     color: #ded09b;
     margin: 0 auto;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .image {
