@@ -1,0 +1,31 @@
+.carousel-container {
+
+    max-width: 1300px;
+    margin: auto;
+    position: relative;
+    padding-top: 40px;
+}
+
+.carousel .slide img {
+    width: 100%;
+}
+
+.carousel .legend {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel .legend h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.carousel .legend p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
